@@ -1,0 +1,26 @@
+/*Game.css
+Stylesheet for a guessing game
+Updated December 2021, Maria DeCesare*/
+
+/*Create CSS rule for all html to change the background color*/
+html {
+  background-color: pink;
+}
+
+/*Create CSS rule for elements with ID gameBody*/
+#gameBody {
+  text-align:center;
+  font-size: 30px;
+}
+
+/*Create CSS rule for elements with ID indexBody*/
+#indexBody {
+  padding-top: 20px;
+  text-align:center;
+  font-size: 20px;
+}
+
+/*Create CSS rule for elements with ID pushme*/
+#pushme {
+  font-size: 20;
+}

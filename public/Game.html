@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!--
+      Game.html
+      A simple show for a guessing game
+      Updated December 2021, Maria DeCesare
+  -->
+
+  <meta charset="utf-8" />
+
+  <!--link in css stylesheet-->
+  <link href="Game.css" rel="stylesheet">
+
+  <!--link in js document-->
+  <script src="Game.js" defer></script>
+
+  <!--link in jquery-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <title>A Guessing Game</title>
+
+</head>
+
+<body id="gameBody">
+
+  <!--display name-->
+  <p>Here is the name: <span id="name"></span><p>
+
+  <p>
+    <!--label, input box, and button for entering a number-->
+    <label for="number">Enter a number:</label>
+    <input type="text" id="number" name="number">
+  </p>
+
+  <button type="button" id="button">Enter</button>
+
+  <!--paragraph to display guesses and guess response-->
+  <p id="guess"><p>
+  <p id="guessResponse"><p>
+
+  <!--paragraph to display attemts and attempts each game-->
+  <p id="attempts"><p>
+  <p id="attemptsEachGame"><p>
+
+  <!--button to play again and link back to index page-->
+  <button type="button" id="playAgain">Play again</button>
+  <br>
+  <br>
+  <a href="index.html">Landing Page</a>
+
+</body>
+
+</html>
